@@ -1,0 +1,27 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple REST boiletplate with login using Express, Sequelize, JWT, Logger, Services, Models, Tests, etc..",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest --colors --forceExit"
+  },
+  "author": "Dusan Milutinovic",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.13",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "node-pre-gyp": "^0.14.0",
+    "sequelize": "^5.21.6",
+    "sequelize-paginate": "^1.1.6",
+    "simple-node-logger": "^18.12.24"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
